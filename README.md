@@ -1,4 +1,4 @@
-# 📦 Amazon Support AI Agent (@AmazonHelp)
+# 📦 Support AI Agent (@AmazonHelp)
 ### Hiver SDE Intern Take-Home Assignment Deliverable
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
