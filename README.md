@@ -86,8 +86,8 @@ docker run --rm -e GROQ_API_KEY="$env:GROQ_API_KEY" hiver-agent
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/kiran-kaduluri/-hiver-ai-agent.git
-cd -hiver-ai-agent
+git clone https://github.com/kiran-kaduluri/Hiver-ai-agent.git
+cd Hiver-ai-agent
 ```
 
 #### 2. Create and Activate Virtual Environment
