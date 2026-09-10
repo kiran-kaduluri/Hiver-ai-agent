@@ -1,0 +1,20 @@
+[
+  {
+    "model": "Baseline 1 (Keyword)",
+    "intent_accuracy": 0.8333,
+    "escalation_f1": 0.0,
+    "escalation_recall": 0.0
+  },
+  {
+    "model": "Baseline 2 (Zero-shot)",
+    "intent_accuracy": 0.6667,
+    "escalation_f1": 0.0,
+    "escalation_recall": 0.0
+  },
+  {
+    "model": "Main AI Agent (Ours)",
+    "intent_accuracy": 0.6,
+    "escalation_f1": 0.0,
+    "escalation_recall": 0.0
+  }
+]
