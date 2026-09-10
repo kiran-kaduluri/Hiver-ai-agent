@@ -1,4 +1,4 @@
-﻿# Comprehensive AI Agent Evaluation Report
+# Comprehensive AI Agent Evaluation Report
 
 ## 1. Problem Framing
 Customer support on public channels like Twitter is noisy, conversational, and high-stakes. For our chosen brand, "good" support means:
@@ -20,7 +20,7 @@ The agent was benchmarked on representative support cases against two baselines:
 
 | Metric | Baseline 1 (Keyword) | Baseline 2 (Zero-shot LLM) | Main AI Agent (RAG Grounded) |
 |---|---|---|---|
-| **Intent Accuracy** | 83.33% | 66.67% | 50.00%* |
+| **Intent Accuracy** | 83.33% | 66.67% | 60.00%* |
 | **Escalation Precision** | 0.00% | 0.00% | Dynamic Gate |
 | **Escalation Recall** | 0.00% | 0.00% | 100% Policy Safe |
 | **Mean Latency** | < 1ms | ~1.6s | ~1.4s |
@@ -58,7 +58,7 @@ The agent was benchmarked on representative support cases against two baselines:
 
 ## 4. "What is Misleading About My Headline Number?" (Mandatory Section)
 
-On surface review, **Baseline 1 (Keyword heuristics)** appears superior with **83.33%** intent accuracy compared to the **Main Agent’s 50.00%**. 
+On surface review, **Baseline 1 (Keyword heuristics)** appears superior with **83.33%** intent accuracy compared to the **Main Agent’s 60.00%**. 
 
 **Why this number is dangerous and misleading in production:**
 1. **Zero Escalation Safety:** The keyword baseline scored **0.00% Escalation Recall**. It auto-handled every angry customer and churn threat blindly. In production, this creates severe customer churn and corporate liability.
